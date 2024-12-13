@@ -15,7 +15,7 @@ fn main() {
     let config = match Config::build(&args) {
         Ok(config) => config,
         Err(err) => {
-            println!("Problem parsing arguments: {err}");
+            eprintln!("Problem parsing arguments: {err}");
             process::exit(1);
         }
     };
