@@ -26,6 +26,6 @@ Example:
 ```bash
 cargo run "search_phrase" "filename.txt"
 
-```bash
+
 export IGNORE_CASE=1
 cargo run "search_phrase" "filename.txt"
